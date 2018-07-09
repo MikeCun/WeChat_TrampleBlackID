@@ -3,7 +3,7 @@ import time
 import os
 import cv2
 import wda
-client = wda.Client("http://169.254.241.241:8100")
+client = wda.Client(severURL)
 s = client.session()
 black = np.zeros((504, 310, 3))
 while True:
